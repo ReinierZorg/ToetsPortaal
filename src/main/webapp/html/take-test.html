@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toets maken - ToetsPortaal</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="student-container">
+    <h1 id="test-title">Toets laden...</h1>
+    <p id="test-description"></p>
+    <p id="message"></p>
+
+    <form id="test-form">
+        <div id="questions"></div>
+        <button type="submit">Toets inleveren</button>
+    </form>
+
+    <br>
+    <button type="button" onclick="window.location.href='student.html'">
+        Terug naar mijn toetsen
+    </button>
+</div>
+
+<script src="../js/take-test.js"></script>
+</body>
+</html>

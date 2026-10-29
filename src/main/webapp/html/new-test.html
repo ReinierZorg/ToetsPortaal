@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nieuwe toets maken</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div class="teacher-container">
+
+    <h2>Nieuwe toets maken</h2>
+
+    <label>Titel</label>
+    <input id="title" placeholder="Titel van de toets">
+
+
+    <label>Beschrijving</label>
+    <textarea id="description" placeholder="Beschrijving van de toets"></textarea>
+
+
+    <h2>Vragen</h2>
+
+    <div id="questions"></div>
+
+
+    <button onclick="addQuestion()">
+        + Vraag toevoegen
+    </button>
+
+
+    <button onclick="saveTest()" class="toets-button">
+        Toets opslaan
+    </button>
+
+
+</div>
+
+
+<script src="../js/new-test.js"></script>
+
+</body>
+
+</html>
